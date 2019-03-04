@@ -17,7 +17,7 @@ struct point	//used for storing points
     }
 };
 
-Mat img = imread("Test1.png", 1);	//Test Image
+Mat img = imread("Test2.png", 1);	//Test Image
 Mat vis(img.rows,img.cols,CV_8UC1,Scalar(0));	//for storing if pixel visited
 //for storing distance.Initialised at greater than possible in the image
 priority_queue<point> qu;	//priority queue for implementing bfs
